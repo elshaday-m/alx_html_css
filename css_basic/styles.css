@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* optional, ensures full viewport usage */
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Header styling */
+header {
+  background-color: #222;
+  padding: 10px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #f39c12;
+}
+
+/* Article styling */
+article {
+  padding: 20px;
+  background: #fdfdfd;
+  border-right: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th,
+table td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background: #eee;
+}
+
+/* Aside styling */
+aside {
+  padding: 20px;
+  background: #fafafa;
+  font-style: italic;
+}
+
+/* Footer styling */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.logo img {
+  height: 40px; /* adjust size of your logo */
+  width: auto; /* keeps aspect ratio */
+  display: block; /* removes unwanted inline spacing */
+}
+header a:hover {
+  color: #f39c12;
+}
